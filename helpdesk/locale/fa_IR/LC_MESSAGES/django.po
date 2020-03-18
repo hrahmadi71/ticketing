@@ -36,7 +36,7 @@ msgstr "خلاصه مشکل"
 
 #: forms.py:142
 msgid "Submitter E-Mail Address"
-msgstr "آدرس ایمیل ثبت کننده"
+msgstr "آدرس ایمیل ثبت‌کننده"
 
 #: forms.py:144
 msgid ""
@@ -90,7 +90,7 @@ msgstr "تیکت باز است"
 #: forms.py:247
 #, python-format
 msgid "Ticket Opened & Assigned to %(name)s"
-msgstr ""
+msgstr "تیکت باز شده و به %(name)s تخصیص داده شده است."
 
 #: forms.py:337
 msgid "Summary of your query"
@@ -159,7 +159,7 @@ msgstr "زمانی‌که یک تیکت از طریق API تغییر یافت، 
 
 #: forms.py:505
 msgid "If a ticket is altered by the API, do you want to receive an e-mail?"
-msgstr ""
+msgstr "در صورتی که یک تیکت با استفاده از API تغییر کند، آیا می‌خواهید ایمیلی دریافت کنید؟"
 
 #: forms.py:510
 msgid "Number of tickets to show per page"
@@ -171,7 +171,7 @@ msgstr "مایل هستید چه تعداد تیکت در صفحه‌ی لیست
 
 #: forms.py:518
 msgid "Use my e-mail address when submitting tickets?"
-msgstr "ایمیل آدرس من در زمان ثبت تیکت‌ها استفاده شود."
+msgstr "آیا ایمیل من در زمان ثبت تیکت‌ها استفاده شود؟"
 
 #: forms.py:519
 msgid ""
@@ -350,82 +350,82 @@ msgstr ""
 
 #: models.py:172
 msgid "How often do you wish to check this mailbox? (in Minutes)"
-msgstr ""
+msgstr "هر چند دقیقه می‌خواهید این صندوق پستی چک شود؟"
 
 #: models.py:191 templates/helpdesk/email_ignore_list.html:13
 msgid "Queues"
-msgstr ""
+msgstr "صف‌ها"
 
 #: models.py:245 templates/helpdesk/dashboard.html:15
 #: templates/helpdesk/ticket.html:138
 msgid "Open"
-msgstr ""
+msgstr "باز"
 
 #: models.py:246 templates/helpdesk/ticket.html:144
 #: templates/helpdesk/ticket.html.py:150 templates/helpdesk/ticket.html:155
 #: templates/helpdesk/ticket.html.py:159
 msgid "Reopened"
-msgstr ""
+msgstr "دوباره باز شده"
 
 #: models.py:247 templates/helpdesk/dashboard.html:15
 #: templates/helpdesk/ticket.html:139 templates/helpdesk/ticket.html.py:145
 #: templates/helpdesk/ticket.html:151
 msgid "Resolved"
-msgstr ""
+msgstr "حل شده"
 
 #: models.py:248 templates/helpdesk/dashboard.html:15
 #: templates/helpdesk/ticket.html:140 templates/helpdesk/ticket.html.py:146
 #: templates/helpdesk/ticket.html:152 templates/helpdesk/ticket.html.py:156
 msgid "Closed"
-msgstr ""
+msgstr "بسته شده"
 
 #: models.py:249 templates/helpdesk/ticket.html:141
 #: templates/helpdesk/ticket.html.py:147 templates/helpdesk/ticket.html:160
 msgid "Duplicate"
-msgstr ""
+msgstr "تکراری"
 
 #: models.py:253
 msgid "1. Critical"
-msgstr ""
+msgstr "حیاتی"
 
 #: models.py:254
 msgid "2. High"
-msgstr ""
+msgstr "بالا"
 
 #: models.py:255
 msgid "3. Normal"
-msgstr ""
+msgstr "معمولی"
 
 #: models.py:256
 msgid "4. Low"
-msgstr ""
+msgstr "پایین"
 
 #: models.py:257
 msgid "5. Very Low"
-msgstr ""
+msgstr "خیلی پایین"
 
 #: models.py:271 templates/helpdesk/dashboard.html:100
 #: templates/helpdesk/ticket_list.html:82
 #: templates/helpdesk/ticket_list.html:225
 msgid "Created"
-msgstr ""
+msgstr "ساخته شده"
 
 #: models.py:273
 msgid "Date this ticket was first created"
-msgstr ""
+msgstr "تاریخی که این تیکت ساخته شده است"
 
 #: models.py:277
 msgid "Modified"
-msgstr ""
+msgstr "ویرایش شده"
 
 #: models.py:279
 msgid "Date this ticket was most recently changed."
-msgstr ""
+msgstr "تاریخ آخرین تغییرات این تیکت"
 
 #: models.py:283 templates/helpdesk/public_view_ticket.html:18
 #: templates/helpdesk/ticket_desc_table.html:42
 msgid "Submitter E-Mail"
-msgstr ""
+msgstr "ایمیل ثبت‌کننده"
 
 #: models.py:286
 msgid ""
@@ -447,7 +447,7 @@ msgstr ""
 
 #: models.py:305
 msgid "On Hold"
-msgstr ""
+msgstr "در انتظار"
 
 #: models.py:308
 msgid "If a ticket is on hold, it will not automatically be escalated."
@@ -456,7 +456,7 @@ msgstr ""
 #: models.py:313 models.py:826 templates/helpdesk/public_view_ticket.html:41
 #: templates/helpdesk/ticket_desc_table.html:19
 msgid "Description"
-msgstr ""
+msgstr "شرح"
 
 #: models.py:316
 msgid "The content of the customers query."
@@ -504,19 +504,19 @@ msgstr ""
 #: templates/helpdesk/ticket_list.html:2
 #: templates/helpdesk/ticket_list.html:224
 msgid "Tickets"
-msgstr ""
+msgstr "تیکت‌ها"
 
 #: models.py:498 models.py:738 models.py:1047 models.py:1200
 msgid "Date"
-msgstr ""
+msgstr "تاریخ"
 
 #: models.py:510 views/staff.py:390
 msgid "Comment"
-msgstr ""
+msgstr "نظر"
 
 #: models.py:516
 msgid "Public"
-msgstr ""
+msgstr "عمومی"
 
 #: models.py:519
 msgid ""
@@ -527,11 +527,11 @@ msgstr ""
 #: models.py:527 models.py:922 models.py:1125 views/staff.py:1008
 #: views/staff.py:1014 views/staff.py:1020 views/staff.py:1026
 msgid "User"
-msgstr ""
+msgstr "کاربر"
 
 #: models.py:531 templates/helpdesk/ticket.html:135
 msgid "New Status"
-msgstr ""
+msgstr "وضعیت جدید"
 
 #: models.py:535
 msgid "If the status was changed, what was it changed to?"
@@ -539,11 +539,11 @@ msgstr ""
 
 #: models.py:542 models.py:566 models.py:628
 msgid "Follow-up"
-msgstr ""
+msgstr "فعالیت"
 
 #: models.py:543
 msgid "Follow-ups"
-msgstr ""
+msgstr "فعالیت‌ها"
 
 #: models.py:570 models.py:1285
 msgid "Field"
@@ -551,15 +551,15 @@ msgstr ""
 
 #: models.py:575
 msgid "Old Value"
-msgstr ""
+msgstr "مقدار قدیمی"
 
 #: models.py:581
 msgid "New Value"
-msgstr ""
+msgstr "مقدار جدید"
 
 #: models.py:589
 msgid "removed"
-msgstr ""
+msgstr "حذف شده"
 
 #: models.py:591
 #, python-format
@@ -773,19 +773,19 @@ msgstr ""
 
 #: models.py:926 templates/helpdesk/ticket_list.html:170
 msgid "Query Name"
-msgstr ""
+msgstr "نام جستار"
 
 #: models.py:928
 msgid "User-provided name for this query"
-msgstr ""
+msgstr "نام تعیین شده توسط کاربر برای جستار"
 
 #: models.py:932
 msgid "Shared With Other Users?"
-msgstr ""
+msgstr "با سایر کاربران به اشتراک گذاشته شود؟"
 
 #: models.py:935
 msgid "Should other users see this query?"
-msgstr ""
+msgstr "آیا می‌خواهید سایر کاربران این جستار را ببینند؟"
 
 #: models.py:939
 msgid "Search Query"
@@ -815,12 +815,12 @@ msgstr ""
 
 #: models.py:993
 msgid "User Setting"
-msgstr ""
+msgstr "تنظیمات کاربر"
 
 #: models.py:994 templates/helpdesk/navigation.html:37
 #: templates/helpdesk/user_settings.html:6
 msgid "User Settings"
-msgstr ""
+msgstr "تنظیمات کاربر"
 
 #: models.py:1036
 msgid ""
@@ -1097,7 +1097,7 @@ msgstr ""
 #: templates/helpdesk/base.html:20 templates/helpdesk/rss_list.html:9
 #: templates/helpdesk/rss_list.html:24 templates/helpdesk/rss_list.html:31
 msgid "My Open Tickets"
-msgstr ""
+msgstr "تیکت‌های باز من"
 
 #: templates/helpdesk/base.html:21
 msgid "All Recent Activity"
@@ -1111,7 +1111,7 @@ msgstr ""
 #: templates/helpdesk/base.html:52 templates/helpdesk/public_base.html:6
 #: templates/helpdesk/public_base.html:18
 msgid "Helpdesk"
-msgstr ""
+msgstr "تیکتینگ"
 
 #: templates/helpdesk/base.html:62 templates/helpdesk/rss_list.html:9
 #: templates/helpdesk/rss_list.html:12 templates/helpdesk/rss_list.html:15
@@ -1178,18 +1178,18 @@ msgstr "ثبت یک تیکت"
 #: templates/helpdesk/create_ticket.html:11
 #: templates/helpdesk/edit_ticket.html:11
 msgid "Unless otherwise stated, all fields are required."
-msgstr ""
+msgstr "تمام فیلدها الزامی هستند مگر آنکه خلافش گفته شود."
 
 #: templates/helpdesk/create_ticket.html:11
 #: templates/helpdesk/edit_ticket.html:11
 #: templates/helpdesk/public_homepage.html:28
 msgid "Please provide as descriptive a title and description as possible."
-msgstr ""
+msgstr "لطفاً تا حد امکان یک عنوان و توضیحی ارائه دهید."
 
 #: templates/helpdesk/create_ticket.html:30
 #: templates/helpdesk/public_homepage.html:55
 msgid "Submit Ticket"
-msgstr ""
+msgstr "ثبت تیکت"
 
 #: templates/helpdesk/dashboard.html:2
 msgid "Helpdesk Dashboard"
@@ -1304,15 +1304,15 @@ msgstr ""
 
 #: templates/helpdesk/edit_ticket.html:3
 msgid "Edit Ticket"
-msgstr ""
+msgstr "ویرایش تیکت"
 
 #: templates/helpdesk/edit_ticket.html:9
 msgid "Edit a Ticket"
-msgstr ""
+msgstr "ویرایش یک تیکت"
 
 #: templates/helpdesk/edit_ticket.html:13
 msgid "Note"
-msgstr ""
+msgstr "یادداشت"
 
 #: templates/helpdesk/edit_ticket.html:13
 msgid ""
@@ -1406,15 +1406,15 @@ msgstr ""
 
 #: templates/helpdesk/followup_edit.html:2
 msgid "Edit followup"
-msgstr ""
+msgstr "ویرایش فعالیت"
 
 #: templates/helpdesk/followup_edit.html:9
 msgid "Edit FollowUp"
-msgstr ""
+msgstr "ویرایش فعالیت"
 
 #: templates/helpdesk/followup_edit.html:14
 msgid "Reassign ticket:"
-msgstr ""
+msgstr "تخصیص دوباره تیکت"
 
 #: templates/helpdesk/followup_edit.html:16
 msgid "Title:"
@@ -1442,24 +1442,24 @@ msgstr ""
 #: templates/helpdesk/kb_index.html:4 templates/helpdesk/navigation.html:21
 #: templates/helpdesk/navigation.html:71
 msgid "Knowledgebase"
-msgstr ""
+msgstr "پایگاه دانش"
 
 #: templates/helpdesk/kb_index.html:6
 msgid ""
 "We have listed a number of knowledgebase articles for your perusal in the "
 "following categories. Please check to see if any of these articles address "
 "your problem prior to opening a support ticket."
-msgstr ""
+msgstr "در اینجا به برخی از سوالات متداول پاسخ داده شده است. لطفا قبل از ثبت تیکت بررسی کنید آیا مشکل شما در فهرست زیر پاسخ داده شده است یا خیر؟"
 
 #: templates/helpdesk/kb_index.html:10
 #: templates/helpdesk/public_homepage.html:10
 msgid "Knowledgebase Categories"
-msgstr ""
+msgstr "دسته‌بندی‌های پایگاه دانش"
 
 #: templates/helpdesk/kb_item.html:4
 #, python-format
 msgid "Knowledgebase: %(item)s"
-msgstr ""
+msgstr "پایگاه دانش: %(item)s"
 
 #: templates/helpdesk/kb_item.html:16
 #, python-format
@@ -2044,7 +2044,7 @@ msgstr ""
 
 #: templates/helpdesk/ticket_list.html:59
 msgid "Change Query"
-msgstr ""
+msgstr "تغییر جستار"
 
 #: templates/helpdesk/ticket_list.html:67
 #: templates/helpdesk/ticket_list.html:79
@@ -2224,7 +2224,7 @@ msgstr ""
 
 #: templates/helpdesk/user_settings.html:3
 msgid "Change User Settings"
-msgstr ""
+msgstr "تغییر تنظیمات کاربر"
 
 #: templates/helpdesk/user_settings.html:8
 msgid ""
@@ -2234,11 +2234,11 @@ msgstr ""
 
 #: templates/helpdesk/user_settings.html:14
 msgid "Save Options"
-msgstr ""
+msgstr "گزینه‌های ذخیره"
 
 #: templates/helpdesk/registration/logged_out.html:2
 msgid "Logged Out"
-msgstr ""
+msgstr "خارج از سامانه"
 
 #: templates/helpdesk/registration/logged_out.html:4
 msgid ""
@@ -2263,7 +2263,7 @@ msgstr ""
 
 #: templates/helpdesk/registration/login.html:20
 msgid "Login"
-msgstr ""
+msgstr "ورود"
 
 #: views/feeds.py:39
 #, python-format
